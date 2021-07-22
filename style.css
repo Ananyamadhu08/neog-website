@@ -76,6 +76,7 @@ body{
 
 .navigation .link-active{
     font-weight: bold;
+    font-size: large;
 }
 
 .hero{
