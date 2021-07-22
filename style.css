@@ -35,6 +35,24 @@ body{
     padding: 0.5rem 1rem;
 }
 
+.link-primary{
+    background-color: var(--primary-color);
+    color: white;
+    display: block;
+    max-width: 140px;
+    border-radius: 0.5rem;
+    margin: 1rem 1rem 1rem 0rem;
+}
+
+.link-secondary{
+    color: var(--primary-color);
+    display: block;
+    max-width: 140px;
+    border-radius: 0.5rem;
+    margin: 1rem 1rem 1rem 0rem;
+    border: 1px solid var(--primary-color);
+}
+
 /* navigation */
 
 .navigation {
@@ -78,8 +96,62 @@ body{
 .hero .hero-img{
     max-width: 80%;
     margin: auto;
-    max-width: 350px;
+    max-width: 450px;
     display: block;
+}
+
+.tech-img{
+    max-width= 80%;
+    margin: auto;
+    max-width: 450px;
+    display: block;
+}
+
+.project-img{
+    max-width= 80%;
+    margin: auto;
+    max-width: 450px;
+    display: block;
+}
+
+.blog-img{
+    max-width= 80%;
+    margin: auto;
+    max-width: 450px;
+    display: block;
+}
+
+.section{
+    padding: 2rem;
+}
+ 
+.section h1{
+    text-align: center;
+}
+
+.ow{
+    background-color: var(--off-white);
+}
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 4rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 3rem;
+}
+
+.footer .link{
+    color: white;
+}
+
+.footer .footer-header{
+    font-size: large;
+    font-weight: bold;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
 }
 
 
